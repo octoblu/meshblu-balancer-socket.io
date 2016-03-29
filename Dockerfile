@@ -6,7 +6,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 1883
-EXPOSE 59890
 
 ADD stick-table.sh .
 ADD run.sh .
